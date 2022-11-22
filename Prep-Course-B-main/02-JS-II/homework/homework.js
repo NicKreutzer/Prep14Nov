@@ -133,8 +133,7 @@ suma (2+3);
   function elevar(num, exponent) {
     // Devuelve el valor de "num" elevado al exponente dado en "exponent"
     // Tu código:
-    var Pot = num**exponent;
-    return Pot;
+    return Math.pow(num, exponent) ;
   }
   
   function redondearNumero(num) {
@@ -179,10 +178,7 @@ suma (2+3);
     // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
     // Ejemplo: "hello world" pasaría a ser "hello world!"
     // Tu código:
-    var String1 = str
-    var String2 = "!"
-    var String3 = String1 + String2
-    return (String3)
+    return str + "!"
   }
   
   function combinarNombres(nombre, apellido) {
@@ -214,14 +210,14 @@ suma (2+3);
   function areaDelTriangulo(base, altura) {
     //Desarrolle una función que calcule el área de un triángulo.
     //Escribe tu código aquí
-    return (base*altura/2);
+    return (base*altura)/2;
   }
   
   function deEuroAdolar(euro) {
     //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
     //como parámetro un número de euros y calcule el cambio en dólares.
     //Escribe tu código aquí
-    return (euro*1.2);
+    return (euro*1.20);
   }
   
   // No modificar nada debajo de esta línea
